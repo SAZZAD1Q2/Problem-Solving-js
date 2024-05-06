@@ -1,8 +1,8 @@
-function sumUp(n){
-    let sum = 0;
-    for(let i = 0; i <= n; i++){
-        sum = sum + i
-    }
-    return sum;
+const sumUpTo = (num) => {
+   let sum = 0;
+   for(let i = 0; i <= num; i++){
+    sum += i;
+   }
+   return sum;
 }
-console.log(sumUp(5))
+console.log(sumUpTo(5))
