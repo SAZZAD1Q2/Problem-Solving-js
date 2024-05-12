@@ -1,8 +1,8 @@
 const sumUpTo = (num) => {
    let sum = 0;
    for(let i = 0; i <= num; i++){
-    sum += i;
+      sum += i;
    }
    return sum;
 }
-console.log(sumUpTo(5))
+console.log(sumUpTo(5));

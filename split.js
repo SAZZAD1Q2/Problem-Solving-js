@@ -1,3 +1,3 @@
-let arr = "hello world saif"
-const myArr = arr.split(" ")
-console.log(myArr)
+const arr = 'Bangladesh';
+const splittedArr =  arr.split('').reverse().join();
+console.log(splittedArr);

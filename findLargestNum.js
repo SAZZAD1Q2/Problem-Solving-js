@@ -1,12 +1,11 @@
-const findLargestNum = (arr) => {
-    let largeNum = arr[0];
-    for(let i = 0; i <= arr.length; i++){
-        if(arr[i] > largeNum){
-            largeNum = arr[i];
+function findLargestNum(numbers){
+    let largest = numbers[0];
+    for(let i = 0; i < numbers.length; i++){
+        if(numbers[i] > largest){
+            largest = numbers[i];
         }
     }
-    return largeNum
+    return largest
 }
-
-const myArr = [3,2,7,12,19,1,5]
-console.log(findLargestNum(myArr))
+const myNum = [3,5,2,67,34,89,23];
+console.log(findLargestNum(myNum))
