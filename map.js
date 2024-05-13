@@ -4,3 +4,14 @@ const multiple = numbers.map((number) => {
 })
 
 console.log(multiple);
+const arr = ['allu', 'bnanana', 'lichi','k','er']
+const arrLength = (arr) => {
+
+return arr.filter(str => str.length <= 4)
+}
+console.log(arrLength(arr))
+const anoStr = ['cat', 'dog', 'parrot', 'cow']
+const strLength = () => {
+   return anoStr.map(num => num.length)
+}
+console.log(strLength())
