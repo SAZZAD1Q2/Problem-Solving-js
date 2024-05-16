@@ -1,6 +1,5 @@
-function arrInteraction(arr1, arr2){
-    return arr1.filter(num => arr2.includes(num));
+const arrIntersaction = (arr1, arr2) => {
+   return arr1.filter(num => arr2.includes(num))
 }
-const arrOne = [2,3,4,7,9]
-const arrTwo = [3,6,8,4,9]
-console.log(arrInteraction(arrOne, arrTwo))
+
+console.log(arrIntersaction([1,3,4],[3,4,5]))
