@@ -15,3 +15,15 @@ const strLength = () => {
    return anoStr.map(num => num.length)
 }
 console.log(strLength())
+
+const newArr = [ ]
+const arr1 = ['cat', 'dog', 'parrot', 'cow']
+const arrLength1 = (arr1) => {
+    return newArr.push = arr1.map(str => str.length)
+}
+console.log(arrLength1(arr1))      
+
+const myNewArr = [];
+const myArr = ['cat', 'dog', 'parrot', 'cow']
+const anotherArr = myArr.filter(str => str.length <= 3)
+console.log(anotherArr)
