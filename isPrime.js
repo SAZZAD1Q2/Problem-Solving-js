@@ -1,14 +1,15 @@
-const isPrime = (num) => {
-    // check if number is less than 2 or not an integer;
+const isPrmieNumber = (num) => {
+    // check if the number is less than 2 or an integer
     if(num < 2 || num % 1 !== 0){
         return false;
     }
-    // check for the divisiblity from 2 up to the square roor of the number
+    // checks if the number is 2 or not divisible by other number
     for(let i = 2; i <= Math.sqrt(num); i++){
-        if(num % i === 0){
+        if(num % i == 0){
             return false;
         }
     }
     return true;
+    
 }
-console.log(isPrime(25))
+console.log(isPrmieNumber(13));
